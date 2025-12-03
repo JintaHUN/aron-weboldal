@@ -1,0 +1,27 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node (if you ever add node modules)
+node_modules/
+
+# IDEs
+.vscode/
+.idea/
+
+# Mac
+.DS_Store
+
+# OneDrive temp
+~$*
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# build output
+dist/
+
+# end of file
