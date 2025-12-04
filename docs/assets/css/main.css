@@ -1667,7 +1667,6 @@ input, select, textarea {
 .fix-mobile {
     word-wrap: break-word;
     overflow-wrap: break-word;
-    text-align: center;
     text-transform: none;      /* ne legyen MINDEN CAPS, ha zavar */
     letter-spacing: 0.05rem; 
 	font-size: 1.5rem !important;
