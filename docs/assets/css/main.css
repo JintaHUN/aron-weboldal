@@ -1676,14 +1676,14 @@ input, select, textarea {
 /* Mobilon kisebb betűméret */
 @media (max-width: 768px) {
     .fix-mobile {
-        font-size: 0.9rem;     /* kb. 14–15px */
+        font-size: 1.2rem;     /* kb. 14–15px */
         line-height: 1.4;
     }
 }
 
 @media (max-width: 480px) {
     .fix-mobile {
-        font-size: 0.8rem;     /* kb. 12–13px */
+        font-size: 1.2rem;     /* kb. 12–13px */
         line-height: 1.4;
     }
 }
