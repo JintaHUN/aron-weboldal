@@ -1662,16 +1662,29 @@ input, select, textarea {
 		}
 
 
-	.fix-mobile span {
-		word-wrap: break-word;
-		overflow-wrap: break-word;
-		display: inline-block;
-	}
+/* ===== Alsó kontakt szöveg mobilra ===== */
 
-	@media (max-width: 480px) {
+.fix-mobile {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-transform: none;      /* ne legyen MINDEN CAPS, ha zavar */
+    letter-spacing: 0.05rem;   /* jóval kisebb betűköz */
+    margin-top: 1.5rem;
+}
+
+/* Mobilon kisebb betűméret */
+@media (max-width: 768px) {
     .fix-mobile {
-        font-size: 16px;
+        font-size: 0.9rem;     /* kb. 14–15px */
         line-height: 1.4;
-        text-align: center;
     }
 }
+
+@media (max-width: 480px) {
+    .fix-mobile {
+        font-size: 0.8rem;     /* kb. 12–13px */
+        line-height: 1.4;
+    }
+}
+
