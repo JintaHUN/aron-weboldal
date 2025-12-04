@@ -1669,21 +1669,22 @@ input, select, textarea {
     overflow-wrap: break-word;
     text-align: center;
     text-transform: none;      /* ne legyen MINDEN CAPS, ha zavar */
-    letter-spacing: 0.05rem;   /* jóval kisebb betűköz */
+    letter-spacing: 0.05rem; 
+	font-size: 1.5rem !important;
     margin-top: 1.5rem;
 }
 
 /* Mobilon kisebb betűméret */
 @media (max-width: 768px) {
     .fix-mobile {
-        font-size: 1.2rem;     /* kb. 14–15px */
+        font-size: 1.2rem !important; 
         line-height: 1.4;
     }
 }
 
 @media (max-width: 480px) {
     .fix-mobile {
-        font-size: 1.2rem;     /* kb. 12–13px */
+        font-size: 1.2rem !important;;   
         line-height: 1.4;
     }
 }
